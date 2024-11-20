@@ -12,7 +12,7 @@ namespace Tyuiu.KhabibullinMR.Sprint3.Task0.V7.Lib
                 double s = (Math.Pow(value, i) + 1) * Math.Cos(i);
                 sum += s;
             }
-            return sum;
+            return Math.Round(sum,3);
         }
     }
 }

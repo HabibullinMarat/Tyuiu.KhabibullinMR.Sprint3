@@ -13,7 +13,7 @@ namespace Tyuiu.KhabibullinMR.Sprint3.Task0.V7.Test
             int start = 1;
             int end = 20;
             double res = ds.GetSumSeries(x, start, end);
-            double wait = 0.33318170583442913;
+            double wait = 0.333;
             Assert.AreEqual(wait, res);
         }
     }
