@@ -36,7 +36,7 @@ namespace Tyuiu.KhabibullinMR.Sprint3.Task7.V9
 
             for (int i = 0; i <= len - 1; i++)
             {
-                Console.WriteLine("|{0,5:d}     |  {1,5:f2}   |", startValue, valueArray[i]);
+                Console.WriteLine("|{0,5:d}     |  {1,5:f2}  |", startValue, valueArray[i]);
                 startValue++;
             }
             Console.WriteLine("+----------+----------+");
