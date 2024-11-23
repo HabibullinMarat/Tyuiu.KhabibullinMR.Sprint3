@@ -22,7 +22,7 @@ namespace Tyuiu.KhabibullinMR.Sprint3.Task6.V6
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Количество делителей = " + ds.GetSumTheDivisors(startValue,stopValue));
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }
