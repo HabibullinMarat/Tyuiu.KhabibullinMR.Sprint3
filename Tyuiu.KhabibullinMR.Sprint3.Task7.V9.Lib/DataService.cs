@@ -2,7 +2,7 @@
 
 namespace Tyuiu.KhabibullinMR.Sprint3.Task7.V9.Lib
 {
-    public class DataService : ISprint3Task7V7
+    public class DataService : ISprint3Task7V9
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
